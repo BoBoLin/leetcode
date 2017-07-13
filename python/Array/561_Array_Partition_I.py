@@ -8,6 +8,8 @@
 #Output: 4
 #Explanation: n is 2, and the maximum sum of pairs is 4 = min(1, 2) + min(3, 4).
 
+#Difficulty : Easy
+
 class Solution(object):
     def arrayPairSum(self, nums):
         """
