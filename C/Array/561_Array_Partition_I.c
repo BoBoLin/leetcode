@@ -41,13 +41,14 @@ int cmp (const void *a, const void *b)
 }
 
 void main(){
-	int input[10] = {1, 4, 3, 2};
+	int input[10] = {1, 4, 3, 2, 9, 6};
+	int numsSize = 6;
 	int result = 0;
 	//memset(input, 0, sizeof(tmp));
 	int i = 0;
-	qsort(input, 4, sizeof(input[0]), cmp);
+	qsort(input, numsSize, sizeof(input[0]), cmp);
 
-	result = arrayPairSum(input, 4);
+	result = arrayPairSum(input, 6);
 
 	printf("%d\n", result);
 }
